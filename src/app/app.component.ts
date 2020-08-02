@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-
 export class AppComponent {
   title = 'Disarm';
   subtitle= 'Zines e ilustraciones'
+
+  productoImg = "/assets/zine-uno.jpg";
+  productoCategoria= "Zines";
+  productoDescripcion= "Loren Ipsum";
+
 }

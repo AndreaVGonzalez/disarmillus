@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { TitleComponent } from './components/title/title.component';
 import { ProductoComponent } from './components/producto/producto.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     TitleComponent,
-    ProductoComponent
+    ProductoComponent,
   ],
   imports: [
     BrowserModule,
