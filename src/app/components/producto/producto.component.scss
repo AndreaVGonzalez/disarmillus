@@ -1,14 +1,25 @@
 
-.producto {
-    &-img {
-        max-width: 100%;
-        margin: auto;
-        padding: 15px;
-        width: 350px;
-        height: 475px;
 
+.lista-productos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
+
+.img-zine {
+    max-width: 100%;
+    margin: auto;
     }
-    &-info {
-        padding: 15px;
-    }
+
+.titulo {
+    padding-top: 15px;
+}
+
+.descripcion {
+    margin-bottom: 15px;
 }

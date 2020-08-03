@@ -1,10 +1,22 @@
 
-<article class="producto">
-    <img class="producto-img" src={{img}} alt="">
-    <div class="producto-info">
-        <header>
-            <h2 class="producto-info_categoria">{{categoria}}</h2> 
-            <p class="producto-info_descripcion">{{descripcion}}</p> 
-        </header>
-    </div>
-</article>
+
+<ul class=lista-productos>
+    <li *ngFor="let p of productos">
+       
+         <h2 class=titulo>{{p.titulo}}</h2>
+         <img class=img-zine src={{p.img}} alt="zine">
+         <h4 class=descripcion>{{p.descripcion}}</h4>
+        
+    </li>
+</ul>
+
+
+<ul class=lista-productos>
+    <li *ngFor="let p of productdos">
+       
+         <h2 class=titulo>{{p.titulo}}</h2>
+         <img class=img-zine src={{p.img}}>
+         <h4 class=descripcion>{{p.descripcion}}</h4>
+        
+    </li>
+</ul>

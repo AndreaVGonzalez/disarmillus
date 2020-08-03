@@ -8,9 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Disarm';
   subtitle= 'Zines e ilustraciones'
-
-  productoImg = "/assets/zine-uno.jpg";
-  productoCategoria= "Zines";
-  productoDescripcion= "Loren Ipsum";
-
 }
+
+

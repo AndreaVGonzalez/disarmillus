@@ -9,8 +9,6 @@ export class TitleComponent implements OnInit {
 
   constructor() { }
 
-  //title = "Disarm";
-  //subtitle = "Zines e Ilustraciones"
 
   @Input() title:string;
   @Input() subtitle:string;
