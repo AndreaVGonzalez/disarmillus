@@ -34,7 +34,8 @@ $verdeclaro: #76A674;
             color: $verdeclaro;
             padding: 10px 30px;
                 &:hover {
-                    text-decoration:underline;
+                    transform: scale(1.1);
+                    transition: all ease 500ms;
                 }
         }
 }
