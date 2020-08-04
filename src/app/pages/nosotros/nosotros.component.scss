@@ -1,0 +1,31 @@
+
+//-- variables--
+
+$lila: #DEAEF2;
+
+//--cierro variables--
+
+.imagen {
+    max-width: 100%;
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+}
+
+.descripcion {
+    max-width: 1000px;
+    padding: 30px;
+    margin:auto;
+    text-align: center;
+    &-titulo {
+        &-texto {
+            color: $lila;
+        }
+    }
+    &-parrafo {
+        padding-top: 10px;
+    }
+}
+
+
+

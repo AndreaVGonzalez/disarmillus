@@ -1,12 +1,15 @@
 
+.title {
+    padding-left: 150px;
+}
 
 .lista-productos {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
     
 }
 
