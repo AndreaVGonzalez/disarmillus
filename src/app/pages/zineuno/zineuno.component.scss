@@ -1,0 +1,26 @@
+//-- variables --
+
+$lila: #DEAEF2;
+
+//--cierra variebles--
+
+.zineuno {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 100px;
+    &-imagen {
+        max-width: 100%;
+        display:block;
+        margin:auto;
+        padding: 20px;
+    }
+    &-descripcion {
+        &-titulo  {
+            color: $lila;
+        }
+        &-parrafo {
+            text-align: justify;
+        }
+    }}

@@ -8,13 +8,13 @@ $verdeclaro: #76A674;
 .pie-superior {
     display:flex;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 40px;
     padding-right: 50px;
     padding-left: 50px;
 }
 
 .newsletter-info {
-    background-image: url('/asstes/mail.jpg');
+    background-image: url("/assets/mail.png");
     background-repeat: no-repeat;
     padding:10px;
     padding-left: 50px;
