@@ -6,7 +6,7 @@
     <li *ngFor="let p of productos">
        
          <h2 class=titulo>{{p.titulo}}</h2>
-         <a href='/zineuno'><img class=img-zine src={{p.img}} alt="zine"></a>
+         <a routerLink='/zineuno'><img class=img-zine src={{p.img}} alt="zine"></a>
          <h4 class=descripcion>{{p.descripcion}}</h4>
         
     </li>
@@ -17,7 +17,7 @@
     <li *ngFor="let p of productdos">
        
          <h2 class=titulo>{{p.titulo}}</h2>
-         <a href='/zineuno'><img class=img-zine src={{p.img}}></a>
+         <a routerLink='/zineuno'><img class=img-zine src={{p.img}}></a>
          <h4 class=descripcion>{{p.descripcion}}</h4>
         
     </li>
